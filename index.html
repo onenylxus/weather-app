@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <!-- Meta tags and title -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+
+  <!-- IconScout -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+  <!-- Local stylesheet and script -->
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="main.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="search">
+      <i class="uil uil-map-marker search-icon"></i>
+      <input type="text" placeholder="Enter your location">
+      <button class="uil uil-search search-button"></button>
+    </div>
+
+    <div class="invalid">
+      <i class="uil uil-times-circle invalid-icon"></i>
+      <p>Location not found.</p>
+    </div>
+
+    <div class="summary">
+      <p class="temperature"></p>
+      <p class="description"></p>
+    </div>
+
+    <div class="details">
+      <div class="humidity">
+        <i class="uil uil-tear"></i>
+        <div class="text">
+          <span></span>
+          <p>Humidity</p>
+        </div>
+      </div>
+
+      <div class="wind-speed">
+        <i class="uil uil-tachometer-fast-alt"></i>
+        <div class="text">
+          <span></span>
+          <p>Wind speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
