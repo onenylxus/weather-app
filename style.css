@@ -100,9 +100,8 @@ body {
 
 /* Summary section */
 .summary {
+  width: 100%;
   text-align: center;
-  scale: 0;
-  opacity: 0;
 }
 
 .summary-icon {
@@ -112,7 +111,6 @@ body {
 
 .summary .temperature {
   position: relative;
-  margin-left: -16px;
   margin-top: 30px;
   font-weight: 600;
   font-size: 4rem;
@@ -137,8 +135,6 @@ body {
   width: 100%;
   margin-top: 30px;
   justify-content: space-between;
-  scale: 0;
-  opacity: 0;
 }
 
 .details .humidity, .details .wind-speed {

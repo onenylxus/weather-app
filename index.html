@@ -22,28 +22,32 @@
 
 <body>
   <div class="container">
+    <!-- Search bar -->
     <div class="search">
       <i class="uil uil-map-marker search-icon"></i>
       <input class="search-input" type="text" placeholder="Enter your location">
       <button class="uil uil-search search-button"></button>
     </div>
 
+    <!-- Invalid window -->
     <div class="invalid">
       <i class="uil uil-times-circle invalid-icon"></i>
       <p>Location not found.</p>
     </div>
 
+    <!-- Weather summary -->
     <div class="summary">
-      <i class="summary-icon"></i>
+      <img class="uil summary-image"></img>
       <p class="temperature"></p>
       <p class="description"></p>
     </div>
 
+    <!-- Weather details -->
     <div class="details">
       <div class="humidity">
         <i class="uil uil-tear"></i>
         <div class="text">
-          <span></span>
+          <span class="humidity-text"></span>
           <p>Humidity</p>
         </div>
       </div>
@@ -51,7 +55,7 @@
       <div class="wind-speed">
         <i class="uil uil-tachometer-fast-alt"></i>
         <div class="text">
-          <span></span>
+          <span class="wind-speed-text"></span>
           <p>Wind speed</p>
         </div>
       </div>
