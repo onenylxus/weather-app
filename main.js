@@ -16,7 +16,7 @@ const elWindSpeedText = qs('.wind-speed-text');
 
 // When search button is clicked
 elSearchButton.addEventListener('click', () => {
-  const apiKey = '';
+  const apiKey = 'fca320f1f38f41de13d00180aeabbb0f';
   const city = elSearchInput.value;
 
   // Check input city
